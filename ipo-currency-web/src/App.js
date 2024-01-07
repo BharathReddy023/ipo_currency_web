@@ -8,7 +8,6 @@ import Register from './components/Register';
 import LoginPage from './components/LoginPage';
 import MyRoute from "./components/MyRoute";
 
-import IPO_calender from './components/IpoCalender'
 import IpoCalender from './components/IpoCalender';
 function App(){
   return (
@@ -19,8 +18,9 @@ function App(){
         <Route path="/about" element={<About/>} /> 
         <Route path="/contact" element={<Contact/>} /> 
         <Route path="/login" element={<LoginPage/>} />
+        
         <Route element={<MyRoute />}>
-          <Route path="/IpoCalender" element={<IpoCalender/>} />
+          <Route path="/ipoCalender" element={<IpoCalender/>} />
         </Route>
         <Route path="/register" element={<Register/>}/>
 

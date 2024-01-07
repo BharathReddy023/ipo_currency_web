@@ -187,30 +187,10 @@ p{
   text-align: center;
 }
 
-.stock-list-container {
-  width: 80%;
-  margin: 0 auto;
-}
 
-.stock-list-wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
 
-.stock-list {
-  flex: 1;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
 
-.stock-item {
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  cursor: pointer;
-}
+
 
 .chart-container {
   flex: 1;

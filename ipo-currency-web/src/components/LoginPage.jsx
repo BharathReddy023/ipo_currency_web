@@ -30,7 +30,7 @@ function LoginPage() {
   };
 
   if (loggedIn) {
-    return <Navigate to="/stock-list" />;
+    return <Navigate to="/IpoCalender" />;
   }
 
   return (

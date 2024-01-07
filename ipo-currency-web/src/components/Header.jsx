@@ -11,7 +11,7 @@ function Header() {
                 <li><Link to="/about">aboutPage</Link></li>
                 <li><Link to="/contact">contact</Link></li>
                 <li><Link to="/register">register</Link></li>
-                <li><Link to="/login">Loginpage</Link></li>
+                <li><Link to="/login">Login</Link></li>
                 <li><Link to='/ipo-calender'>IPO-calender</Link></li>
 
             </ul>
